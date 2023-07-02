@@ -1,0 +1,16 @@
+@keyframes textScale {
+    0% {
+      transform: scale(0.8);
+    }
+    100% {
+      transform: scale(1.5);
+    }
+  }
+  
+  .text-scale {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: textScale .5s infinite alternate;
+  }
+  
